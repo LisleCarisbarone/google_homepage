@@ -1,9 +1,10 @@
 ul {
     list-style-type: none;
-    text-decoration: none;
     margin: 0;
     padding: 2px;
-  }
+    cursor: pointer;
+    text-decoration-color: black;
+    }
 
 nav { 
     top: 0;
@@ -12,6 +13,7 @@ nav {
  
 .footer {
     position: absolute;
+    justify-items: end;
     bottom: 0;
     width: 100%;
     border: 1px solid lightgray;
@@ -30,12 +32,45 @@ li {
   float: left;
   padding: 8px;
   font-size: 15px;
+  text-decoration: none;
+  color: black;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+
 
 .b {
   float: right;
   padding: 8px;
   font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.c {
+  float: left;
+  padding: 8px;
+  height: 30px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 main {
@@ -44,14 +79,17 @@ main {
 }
 
 .search {
-  text-align: center;
-  padding: 0 auto;
+  position: absolute;
+  padding: auto;
 }
 
 .search-bar {
   text-align: center;
   height: 30px;
   width: 400px;
+  border-radius: 15px;
+  border: 1px solid #d9d9d9;
+  color: black;
   }
 
 .image {
@@ -61,10 +99,16 @@ main {
 }
 
 .button {
-  margin: 2;
-  padding: 20px;
+  text-decoration: none;
   text-align: center;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: black;
+  border-radius: 5px;
+  line-height: 10px;
 }
+
 
 .icon {
   height: 30px;
@@ -72,5 +116,17 @@ main {
 }
 
 #sign-in {
+    text-decoration: none !important;
+    background-color: #4285f4; 
+    border: 1px solid #4285f4;
+    border-radius: 5px;
+    color: white;
+    padding: 0 12px;
+    text-align: center;
+    display: inline-block;
+    line-height: 28px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: auto;
 
 }
