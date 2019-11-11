@@ -11,4 +11,4 @@ These skills will be helpful for you when you start building
 	Understand how to use classes and ids to target CSS at specific elements on the page
 	Build a very basic form (even if it doesn’t “go” anywhere)
 
-this is confusing, cant get it to work. 
+ From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
